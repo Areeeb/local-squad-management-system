@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 29, 2017, 3:45:55 AM
+    Author     : Areeb
+*/
+
+
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#title{
+    position: absolute;
+    top:50px;
+    height: 150px;
+    background-color: transparent;
+    overflow: hidden;
+    right: 35%;
+    left: 35%;
+    text-align: center;
+}
+
+#title h1{
+    font-size: 400%;
+    font-family: Comic Sans MS;
+}
+
+#title h1 a:link{
+    color: white;
+    text-decoration: none;
+}
+
+#title h1 a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#title h1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#title h1 a:active{
+    color: white;
+    text-decoration: none;
+}
+
+.options{
+    width: 100%;
+    position: absolute;
+    top: 190px;
+    left: 0%;
+    right: 0%;
+    height: 106px;
+    
+}
+
+.optionsList{
+    
+    list-style-type: none;
+    position: absolute;
+    margin: 0px auto;
+    height: 106px;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.optionsList li{ 
+    display: inline-block;
+    background-color: black;
+    padding: 42px 60px;
+    
+    cursor: pointer;
+    border: 1px solid white;
+    font-size: large;
+    
+}
+
+.optionsList li .optionsClass{
+    text-decoration: none;
+    color: white;
+}
+
+/*#first{
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    left: 0%;
+    height: 50px;
+    background-color: black;
+    border-style: solid;
+}
+
+#second{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 0%;
+    height: 50px;
+    background-color: grey;
+    border-style: solid;
+    border-color: grey;
+}*/
+
+#MainBody{
+    position: absolute;
+    top:300px;
+    left: 0%;
+    bottom: 148px;
+    width: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#bottom{
+    position: absolute;
+    bottom: 0px;
+    top:84%;
+    left: 0%;
+    height: 233px;
+    border-style: solid;
+    border-color: grey;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+.imagesDiv{
+    position: absolute;
+    top: 0px;
+    height: 500px;
+    
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagesDiv .images {
+    position: absolute;
+    top: 20%;
+    bottom: auto;
+    left: 0%;
+    margin: 0px 0px;
+    
+    width: 1500000px;
+    padding: 0;
+     
+}
+
+.imagesDiv .images .image{
+    display: inline-block;
+    width: 629px;
+    height: 300px;
+    list-style-type: none;
+    /*float: left;*/
+    padding: 0px 0px;
+    overflow: hidden;
+    left: 0%;
+}
+
+.imagesDiv .images .imageClass{
+    width: 627px;
+    height: 300px;
+    overflow: hidden;
+}
